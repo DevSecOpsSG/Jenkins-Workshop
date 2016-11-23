@@ -3,11 +3,11 @@
 > Below configurations are useful when you use SonarQube Server and jenkins
 
 Integrating SonarQube includes below 3 steps
-* Setting up your own SonarQube Server or use existing [SonarQube](https://sonarqube.com/) (SonarQube public for free) 
+* Setting up your own SonarQube [Server](http://docs.sonarqube.org/display/SONAR/Installing+the+Server) or use existing [SonarQube](https://sonarqube.com/) (SonarQube public for free) 
 * Jenkins Global configuration
 * Individual jenkins job configurations
 
-## SonarQube Server - Generate token
+## SonarQube public Server - Generate token
 
 1. Sign up for a Github account
 
