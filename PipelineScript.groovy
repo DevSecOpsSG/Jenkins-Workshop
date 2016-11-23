@@ -1,3 +1,11 @@
+/*
+
+** Use below script if you have installed Maven **
+
+*/
+
+
+
 node{
     stage("Checkout"){
         // Checkout the source code
