@@ -9,7 +9,8 @@ Go through below prep-work before starting with jenkins
 1. Sign up for a Github account.
 2. Fork [WebGoat](https://github.com/WebGoat/WebGoat) repository
 3. Install [Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) latest version
-  - confirm with `java -version` command
+  - confirm with `java -version` command.
+  
       ```
       java version "1.8.0_112"
       Java(TM) SE Runtime Environment (build 1.8.0_112-b16)
@@ -17,6 +18,7 @@ Go through below prep-work before starting with jenkins
       ```
 4. Install [Maven](http://maven.apache.org/install.html) latest version
   - confirm with `mvn -v` command with similar output below with your Maven Home path
+  
         ```
         Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-11T00:41:47+08:00)
         Maven home: /Users/Sidhu/workshop/apache-maven-3.3.9 
@@ -27,4 +29,4 @@ Go through below prep-work before starting with jenkins
         
         ```
 
-5. Create FreeStyle job and play with it
+5. Now why don't you Install jenkins and Create FreeStyle job and play with it !!
