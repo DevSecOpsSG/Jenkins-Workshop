@@ -2,6 +2,10 @@
 
 > Below configurations are useful when you use SonarQube Server and jenkins
 
+Integrating SonarQube includes below 3 steps
+* Setting up your own SonarQube Server or use existing [SonarQube](https://sonarqube.com/) (SonarQube public for free) 
+* Jenkins Global configuration
+* Individual jenkins job configurations
 
 ## SonarQube Server - Generate token
 
@@ -27,4 +31,16 @@
 
 ## Jenkins job - configuration
 
+1. Goto jenkins job configuration
 
+2. Add build step "Execute SonarQube Scanner"
+
+3. Analysis Properties (Use relevant and unique name for projectKey. I have used 'workshop-webgoat' in this case)
+    ```
+    sonar.projectKey=workshop-webgoat
+    sonar.sources=webgoat-container/,webgoat-standalone/
+    ```
+
+That's it!!. Go ahead and run the job
+
+Sample results of SonarQube [https://sonarqube.com/dashboard/index?id=workshop-webgoat](https://sonarqube.com/dashboard/index?id=workshop-webgoat)
