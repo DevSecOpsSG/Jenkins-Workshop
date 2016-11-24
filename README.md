@@ -32,4 +32,4 @@ Go through below prep-work before starting with jenkins
 5. Now why don't you Install jenkins and Create FreeStyle job and play with it !!
 
 
-## Looking for Presentation? [Here](https://github.com/DevSecOpsSG/Jenkins-Workshop/blob/master/SonarQube%20-%20Basic.md)  it is 
+## Looking for Presentation? [Here](https://github.com/DevSecOpsSG/Jenkins-Workshop/blob/master/Jenkins%20Introduction%20Wokshop.pptx.pdf)  it is 
